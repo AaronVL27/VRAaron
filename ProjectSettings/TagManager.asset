@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 3
   tags:
   - Anchor
+  - Arma
+  - Bala
+  - Ball
+  - Dardo
+  - Diana
   layers:
   - Default
   - TransparentFX
@@ -15,12 +20,12 @@ TagManager:
   - Ball
   - Dardo
   - Diana
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Arma
+  - Bala
+  - Ostaculo
+  - Wall
+  - Ground
+  - Floot
   - 
   - 
   - 

@@ -211,7 +211,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2692
+  m_VersionIndex: 2698
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -330,7 +330,7 @@ GameObject:
   - component: {fileID: 8923694214031043168}
   m_Layer: 8
   m_Name: DianaDardo
-  m_TagString: Untagged
+  m_TagString: Diana
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -378,7 +378,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9ff459a8387b51544b24ad7d91d300c2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0067585707
+      value: -0.0067583323
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9ff459a8387b51544b24ad7d91d300c2, type: 3}
       propertyPath: m_LocalPosition.z
