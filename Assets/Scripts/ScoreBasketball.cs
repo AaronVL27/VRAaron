@@ -8,7 +8,7 @@ public class ScoreBasketball : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Ball"))
+        if (other.gameObject.CompareTag("Ball"))
         {
             Rigidbody rb = other.gameObject.GetComponent<Rigidbody>();
             if (rb.linearVelocity.y <= 0.1f)
@@ -16,7 +16,7 @@ public class ScoreBasketball : MonoBehaviour
                 score++;
                 ScoreUpdate();
             }
-            else
+            else if(rb.linearVelocity.y > 0.1f)
             {
                 score--;
                 ScoreUpdate();
